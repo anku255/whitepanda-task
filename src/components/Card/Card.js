@@ -1,13 +1,25 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "@emotion/styled";
-import { Avatar } from "@chakra-ui/core";
 import Button from "../Button";
+
+import cardAvatar from "../../assets/card-avatar.png";
 
 const StyledCard = styled.div`
   padding: 2rem 3rem;
   background: #fdfdfd;
   text-align: left;
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
 
   &:hover {
     background: #ffffff;
@@ -17,7 +29,7 @@ const StyledCard = styled.div`
       border-radius: 50%;
       background: ${props => props.theme.colors.brand["500"]};
 
-      svg {
+      img {
         display: none;
       }
     }
@@ -52,7 +64,9 @@ const Card = props => {
   return (
     <StyledCard className="card" {...props}>
       <div className="header">
-        <Avatar className="avatar"></Avatar>
+        <div className="avatar">
+          <img src={cardAvatar} alt="Card Avatar" />
+        </div>
         <div className="header__right">
           <div className="header__right__title">{props.title}</div>
           <div className="header__right__subtitle">from ₹{props.price}</div>
