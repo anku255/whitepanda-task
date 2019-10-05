@@ -2,6 +2,10 @@
   "name": "whitepanda-task",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
+  },
   "dependencies": {
     "@chakra-ui/core": "^0.3.2",
     "@emotion/core": "^10.0.20",
@@ -38,5 +42,10 @@
   "devDependencies": {
     "gh-pages": "^2.1.1"
   },
-  "homepage": "http://anku255.github.io/whitepanda-task"
+  "homepage": "http://anku255.github.io/whitepanda-task",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anku255/whitepanda-task.git"
+  },
+  "author": "Ankit Tiwari"
 }
