@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Blog / Article",
+    "price": 500,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "2",
+    "title": "Newsletter / E-mailer",
+    "price": 1000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "3",
+    "title": "Whitepaper",
+    "price": 2000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "4",
+    "title": "e-book",
+    "price": 1000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "5",
+    "title": "Report / Guide",
+    "price": 500,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "6",
+    "title": "Product Description",
+    "price": 500,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "7",
+    "title": "Website Content",
+    "price": 1000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "8",
+    "title": "Video Script",
+    "price": 1000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "9",
+    "title": "Company Profile / Brochure",
+    "price": 2000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  },
+  {
+    "id": "10",
+    "title": "Press Release",
+    "price": 2000,
+    "description": "Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to users"
+  }
+]
