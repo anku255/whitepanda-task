@@ -19,6 +19,16 @@ const StyledSidebar = styled.div`
 
     &.active {
       border-right: 3px solid ${props => props.theme.colors.brand["500"]};
+      svg {
+        fill: ${props => props.theme.colors.brand["300"]};
+      }
+    }
+
+    &:not(.active):hover {
+      transform: scale(1.2);
+      svg {
+        fill: ${props => props.theme.colors.brand["300"]};
+      }
     }
   }
 `;
@@ -29,7 +39,7 @@ const Sidebar = props => {
       <nav>
         <ul>
           <li className="active">
-            <Box as={MdBorderAll} size="26px" color="brand.300" />
+            <Box as={MdBorderAll} size="26px" color="#A6A6A6" />
           </li>
           <li>
             <Box as={MdSearch} size="26px" color="#A6A6A6" />

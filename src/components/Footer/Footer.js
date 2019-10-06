@@ -18,6 +18,11 @@ const StyledFooter = styled.footer`
     svg:not(:last-child) {
       margin-right: 2.5rem;
     }
+
+    svg:hover {
+      transform: scale(1.1);
+      fill: ${props => props.theme.colors.brand["300"]};
+    }
   }
 
   .footer-text {
@@ -37,6 +42,7 @@ const StyledFooter = styled.footer`
         color: ${props => props.theme.colors.brand["500"]};
         border-bottom: 1px solid ${props => props.theme.colors.brand["500"]};
         margin: 0 0.5rem;
+        transform: scale(1.1);
       }
     }
   }
