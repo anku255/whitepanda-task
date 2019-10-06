@@ -39,6 +39,23 @@ const StyledHomePage = styled.section`
             margin-right: 0;
           }
         }
+
+        @media (max-width: 1000px) {
+          div.card {
+            width: 48%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+
+            &:nth-of-type(3n) {
+              margin-right: 0;
+            }
+          }
+        }
+        @media (max-width: 700px) {
+          div.card {
+            width: 100%;
+          }
+        }
       }
     }
   }
